@@ -1,16 +1,24 @@
 {
+  "type": "module",
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "preview": "vitepress preview"
+    "preview": "vitepress preview",
+    "new": "npx tsx script/new.mts"
   },
   "devDependencies": {
     "@mdit-vue/shared": "^0.12.0",
+    "@types/node": "^20.12.5",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^9.2.17",
+    "prettier": "^3.2.5",
     "sass": "^1.58.3",
+    "tsx": "^4.7.2",
     "vitepress": "1.0.0-rc.42",
     "vue": "^3.2.47"
   },
   "dependencies": {
-    "vue3-video-play": "^1.3.2"
+    "vue3-video-play": "^1.3.2",
+    "zx": "^7.2.3"
   }
 }

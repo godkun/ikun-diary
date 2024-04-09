@@ -11,5 +11,10 @@ export const nav: DefaultTheme.Config['nav'] = [
     activeMatch: '/buka/',
     link: '/buka/'
   },
+  {
+    text: '思考',
+    activeMatch: '/think/',
+    link: '/think/'
+  },
   { text: '工具导航', link: '/nav', activeMatch: '^/nav' },
 ]
