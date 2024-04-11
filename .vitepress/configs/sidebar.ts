@@ -7,7 +7,7 @@ export const sidebar = {
         {
           text: "总览",
           link: "/blog/ai/index.md",
-        }
+        },
       ],
     },
     {
@@ -91,6 +91,10 @@ export const sidebar = {
         {
           text: "每日思考",
           link: "/blog/day/index.md",
+        },
+        {
+          text: "2024-4-11",
+          link: "/think/day/2024-4-11.md",
         },
       ],
     },

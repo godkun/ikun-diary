@@ -4,7 +4,7 @@ import { nav, sidebar } from "./configs";
 export default defineConfig({
   title: "ikun日记",
   description: "ikun日记",
-  lastUpdated: false,
+  lastUpdated: true,
   themeConfig: {
     i18nRouting: false,
     logo: "/logo.png",
@@ -23,8 +23,8 @@ export default defineConfig({
       provider: "local",
     },
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024-present godkun'
+      message: "Released under the MIT License.",
+      copyright: "Copyright © 2024-present godkun",
     },
     editLink: {
       pattern: "https://github.com/godkun/ikun-diary/edit/main/:path",
