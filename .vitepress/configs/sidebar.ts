@@ -130,7 +130,7 @@ export const sidebar = {
       items: [
         {
           text: "每日思考",
-          link: "/blog/day/index.md",
+          link: "/think/day/index.md",
         },
         {
           text: "2024-4-11",
