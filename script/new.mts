@@ -43,8 +43,8 @@ const { c } = await inquirer.prompt([
 ]);
 
 if (!c) {
-  console.log("文章名称不能为空，自动退出")
-  process.exit(1)
+  console.log("文章名称不能为空，自动退出");
+  process.exit(1);
 }
 
 let sidebarObject = JSON.parse(JSON.stringify(sidebar));
@@ -56,8 +56,8 @@ sidebarObject[`/${a}/`].forEach((item) => {
     const index = item.items.findIndex((item) => item.text === c);
     if (index < 0) item.items.push({ text: c, link: `/${a}/${b}/${c}.md` });
     else {
-      console.log("存在相同名称文章，自动退出")
-      process.exit(1)
+      console.log("存在相同名称文章，自动退出");
+      process.exit(1);
     }
   }
 });
@@ -92,7 +92,7 @@ fs.writeFile(
   }
 );
 
-const textCotent = `# ${c}`
+const textCotent = `# ${c}`;
 fs.writeFile(
   path.join(`/${cwd}/${a}/${b}/${c}.md`),
   textCotent,
@@ -105,4 +105,3 @@ fs.writeFile(
     }
   }
 );
-

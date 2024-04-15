@@ -1,0 +1,7 @@
+- py3
+- scikit-learn
+- numpy
+- matplotlib
+- jupyter
+- jupyterlab
+- anaconda

@@ -127,5 +127,15 @@ export const NAV_DATA: NavData[] = [
         link: "https://vesoft-inc.github.io/github-statistics/",
       },
     ]
-  }
+  },
+  {
+    title: "我正在用",
+    items: [
+      {
+        title: "wakatime",
+        desc: "统计、分析可视化展示每天每周每月的coding情况",
+        link: "https://wakatime.com",
+      },
+    ],
+  },
 ];
