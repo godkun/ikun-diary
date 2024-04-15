@@ -152,7 +152,7 @@ export const sidebar = {
       items: [
         {
           text: "周回顾",
-          link: "/blog/week/index.md",
+          link: "/think/week/index.md",
         },
       ],
     },
@@ -162,7 +162,17 @@ export const sidebar = {
       items: [
         {
           text: "月回顾",
-          link: "/blog/month/index.md",
+          link: "/think/month/index.md",
+        },
+      ],
+    },
+    {
+      text: "project",
+      collapsed: false,
+      items: [
+        {
+          text: "项目回顾",
+          link: "/think/project/index.md",
         },
       ],
     },
