@@ -5,6 +5,7 @@ export default defineConfig({
   title: "ikun日记",
   description: "ikun日记",
   lastUpdated: true,
+  ignoreDeadLinks: true,
   themeConfig: {
     i18nRouting: false,
     logo: "/logo.png",
