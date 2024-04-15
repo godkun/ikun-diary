@@ -2,9 +2,9 @@
 
 import fs from "fs";
 import path from "path";
-import { sidebar } from "../.vitepress/configs/sidebar";
-import inquirer from "inquirer";
 import prettier from "prettier";
+import inquirer from "inquirer";
+import { sidebar } from "../.vitepress/configs/sidebar";
 
 const cwd = process.cwd();
 
@@ -79,18 +79,6 @@ formattedContent.then((res) => {
     }
   });
 });
-
-fs.writeFile(
-  path.join(`/${cwd}/.vitepress/configs/sidebar.ts`),
-  "utf8",
-  (err) => {
-    if (err) {
-      console.error("Error writing file:", err);
-    } else {
-      console.log("File has been successfully updated.");
-    }
-  }
-);
 
 const textCotent = `# ${c}`;
 fs.writeFile(

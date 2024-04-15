@@ -7,7 +7,7 @@ export const sidebar = {
         {
           text: "总览",
           link: "/blog/ai/index.md",
-        },
+        }
       ],
     },
     {
@@ -67,6 +67,10 @@ export const sidebar = {
         {
           text: "总览",
           link: "/blog/node-deno-bun/index.md",
+        },
+        {
+          text: "写一个自动生成vitepress文章的脚本工具",
+          link: "/blog/node-deno-bun/写一个自动生成vitepress文章的脚本工具.md",
         },
       ],
     },
