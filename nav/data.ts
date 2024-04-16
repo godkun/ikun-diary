@@ -136,6 +136,11 @@ export const NAV_DATA: NavData[] = [
         desc: "统计、分析可视化展示每天每周每月的coding情况",
         link: "https://wakatime.com",
       },
+      {
+        title: "kap",
+        desc: "开源好用的mac录屏工具",
+        link: "https://getkap.co/",
+      },
     ],
   },
 ];

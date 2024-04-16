@@ -129,13 +129,9 @@ export const sidebar = {
   ],
   "/think/": [
     {
-      text: "day",
+      text: "每日思考",
       collapsed: false,
       items: [
-        {
-          text: "每日思考",
-          link: "/think/day/index.md",
-        },
         {
           text: "2024-4-11",
           link: "/think/day/2024-4-11.md",
@@ -155,7 +151,7 @@ export const sidebar = {
       ],
     },
     {
-      text: "week",
+      text: "周回顾",
       collapsed: false,
       items: [
         {
@@ -165,7 +161,7 @@ export const sidebar = {
       ],
     },
     {
-      text: "month",
+      text: "月回顾",
       collapsed: false,
       items: [
         {
@@ -175,12 +171,12 @@ export const sidebar = {
       ],
     },
     {
-      text: "project",
+      text: "项目回顾",
       collapsed: false,
       items: [
         {
-          text: "项目回顾",
-          link: "/think/project/index.md",
+          text: "vivo商城",
+          link: "/think/project/vivo商城.md",
         },
       ],
     },
