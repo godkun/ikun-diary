@@ -6,7 +6,6 @@ export default defineConfig({
   description: "ikun日记",
   lastUpdated: true,
   ignoreDeadLinks: true,
-  head: [["script", { rel: "async", src: "https://embed.reddit.com/widgets.js" }]],
   themeConfig: {
     i18nRouting: false,
     logo: "/logo.png",
