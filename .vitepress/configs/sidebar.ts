@@ -148,6 +148,10 @@ export const sidebar = {
           text: "2024-4-16",
           link: "/think/day/2024-4-16.md",
         },
+        {
+          text: "2024-4-17",
+          link: "/think/day/2024-4-17.md",
+        },
       ],
     },
     {

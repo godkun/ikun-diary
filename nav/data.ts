@@ -32,6 +32,16 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
+    title: "npm",
+    items: [
+      {
+        title: "npkill",
+        desc: "删除node_modules工具",
+        link: "https://www.npmjs.com/package/npkill",
+      }
+    ],
+  },
+  {
     title: "Rust",
     items: [
       {

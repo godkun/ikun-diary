@@ -47,12 +47,18 @@ if (!c) {
   process.exit(1);
 }
 
+const map = {
+  day: "每日思考",
+  week: "周回顾",
+  month: "月回顾",
+}
+
 let sidebarObject = JSON.parse(JSON.stringify(sidebar));
 
 const filePath = path.join(`${cwd}/.vitepress/configs/sidebar.ts`);
 
 sidebarObject[`/${a}/`].forEach((item) => {
-  if (item.text === b) {
+  if (item.text === map[b]) {
     const index = item.items.findIndex((item) => item.text === c);
     if (index < 0) item.items.push({ text: c, link: `/${a}/${b}/${c}.md` });
     else {
