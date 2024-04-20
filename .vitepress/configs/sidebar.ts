@@ -41,6 +41,16 @@ export const sidebar = {
       ],
     },
     {
+      text: "tools",
+      collapsed: false,
+      items: [
+        {
+          text: "[闪念] 快来试试这两款完美的编程字体吧",
+          link: "/blog/tools/[闪念] 快来试试这两款完美的编程字体吧.md",
+        },
+      ],
+    },
+    {
       text: "js-ts",
       collapsed: false,
       items: [
@@ -107,22 +117,12 @@ export const sidebar = {
       ],
     },
     {
-      text: "Monibuca Console",
+      text: "Monibuca",
       collapsed: false,
       items: [
         {
           text: "总览",
-          link: "/buka/console/index.md",
-        },
-      ],
-    },
-    {
-      text: "其他",
-      collapsed: false,
-      items: [
-        {
-          text: "总览",
-          link: "/buka/other/index.md",
+          link: "/buka/monibuca/index.md",
         },
       ],
     },

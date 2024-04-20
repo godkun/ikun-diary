@@ -58,7 +58,7 @@ let sidebarObject = JSON.parse(JSON.stringify(sidebar));
 const filePath = path.join(`${cwd}/.vitepress/configs/sidebar.ts`);
 
 sidebarObject[`/${a}/`].forEach((item) => {
-  if (item.text === map[b]) {
+  if (item.text === map[b] || item.text === b) {
     const index = item.items.findIndex((item) => item.text === c);
     if (index < 0) item.items.push({ text: c, link: `/${a}/${b}/${c}.md` });
     else {
