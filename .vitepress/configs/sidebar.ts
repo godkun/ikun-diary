@@ -168,6 +168,30 @@ export const sidebar = {
           text: "推荐书籍",
           link: "/blog/读书笔记/推荐书籍/index.md",
         },
+        {
+          text: "读[高性能响应式Web开发实战]有感",
+          link: "/blog/读书笔记/读[高性能响应式Web开发实战]有感/index.md",
+        },
+        {
+          text: "读[速度与激情以网站性能提升用户体验]有感",
+          link: "/blog/读书笔记/读[速度与激情以网站性能提升用户体验]有感/index.md",
+        },
+        {
+          text: "读[跨终端Web]有感",
+          link: "/blog/读书笔记/读[跨终端Web]有感/index.md",
+        },
+        {
+          text: "包容性Web设计",
+          link: "/blog/读书笔记/包容性Web设计/index.md",
+        },
+        {
+          text: "Web全栈工程师的自我修养",
+          link: "/blog/读书笔记/Web全栈工程师的自我修养/index.md",
+        },
+        {
+          text: "小程序巧应用——微信小程序开发实战",
+          link: "/blog/读书笔记/小程序巧应用——微信小程序开发实战/index.md",
+        },
       ],
     },
     {
