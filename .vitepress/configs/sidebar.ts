@@ -31,6 +31,36 @@ export const sidebar = {
       ],
     },
     {
+      text: "architecture",
+      collapsed: false,
+      items: [
+        {
+          text: "掌握设计原则",
+          link: "/blog/architecture/掌握设计原则/index.md",
+        },
+      ],
+    },
+    {
+      text: "算法",
+      collapsed: false,
+      items: [
+        {
+          text: "从一个数组中找出N个数其和为M的所有可能",
+          link: "/blog/算法/从一个数组中找出N个数其和为M的所有可能/index.md",
+        },
+      ],
+    },
+    {
+      text: "经历",
+      collapsed: false,
+      items: [
+        {
+          text: "2019年一次私活的经历",
+          link: "/blog/经历/2019年一次私活的经历/index.md",
+        },
+      ],
+    },
+    {
       text: "py",
       collapsed: false,
       items: [
@@ -46,7 +76,19 @@ export const sidebar = {
       items: [
         {
           text: "[闪念] 快来试试这两款完美的编程字体吧",
-          link: "/blog/tools/[闪念] 快来试试这两款完美的编程字体吧.md",
+          link: "/blog/tools/[闪念] 快来试试这两款完美的编程字体吧/index.md",
+        },
+        {
+          text: "【全网最佳Slidev实践】ikun教你写web3.0的ppt",
+          link: "/blog/tools/【全网最佳Slidev实践】ikun教你写web3.0的ppt/index.md",
+        },
+        {
+          text: "【这些年】沉淀的生产力工具集",
+          link: "/blog/tools/【这些年】沉淀的生产力工具集/index.md",
+        },
+        {
+          text: "用思维导图开启思考活口",
+          link: "/blog/tools/用思维导图开启思考活口/index.md",
         },
       ],
     },
@@ -82,6 +124,24 @@ export const sidebar = {
           text: "写一个自动生成vitepress文章的脚本工具",
           link: "/blog/node-deno-bun/写一个自动生成vitepress文章的脚本工具.md",
         },
+        {
+          text: "node应用故障定位顶级技巧—动态追踪技术[Dynamic Trace]",
+          link: "/blog/node-deno-bun/node应用故障定位顶级技巧—动态追踪技术[Dynamic Trace]/index.md",
+        },
+      ],
+    },
+    {
+      text: "基础",
+      collapsed: false,
+      items: [
+        {
+          text: "前端网络知识",
+          link: "/blog/基础/前端网络知识/index.md",
+        },
+        {
+          text: "函数式编程[1]",
+          link: "/blog/基础/函数式编程[1]/index.md",
+        },
       ],
     },
     {
@@ -89,8 +149,12 @@ export const sidebar = {
       collapsed: false,
       items: [
         {
-          text: "读书笔记",
-          link: "/blog/book/index.md",
+          text: "读完《代码大全》后的二三总结",
+          link: "/blog/读书笔记/读完《代码大全》后的二三总结/index.md",
+        },
+        {
+          text: "推荐书籍",
+          link: "/blog/读书笔记/推荐书籍/index.md",
         },
       ],
     },
@@ -107,7 +171,7 @@ export const sidebar = {
   ],
   "/buka/": [
     {
-      text: "Rebebuca",
+      text: "rebebuca",
       collapsed: false,
       items: [
         {
@@ -117,12 +181,20 @@ export const sidebar = {
       ],
     },
     {
-      text: "Monibuca",
+      text: "monibuca",
       collapsed: false,
       items: [
         {
           text: "总览",
           link: "/buka/monibuca/index.md",
+        },
+        {
+          text: "开发console产品",
+          link: "/buka/monibuca/开发console产品/index.md",
+        },
+        {
+          text: "第一版官方开发总结",
+          link: "/buka/monibuca/第一版官方开发总结/index.md",
         },
       ],
     },

@@ -60,7 +60,7 @@ const filePath = path.join(`${cwd}/.vitepress/configs/sidebar.ts`);
 sidebarObject[`/${a}/`].forEach((item) => {
   if (item.text === map[b] || item.text === b) {
     const index = item.items.findIndex((item) => item.text === c);
-    if (index < 0) item.items.push({ text: c, link: `/${a}/${b}/${c}.md` });
+    if (index < 0) item.items.push({ text: c, link: `/${a}/${b}/${c}/index.md` });
     else {
       console.log("存在相同名称文章，自动退出");
       process.exit(1);
@@ -87,8 +87,10 @@ formattedContent.then((res) => {
 });
 
 const textCotent = `# ${c}`;
+
+fs.mkdirSync(`/${cwd}/${a}/${b}/${c}`);
 fs.writeFile(
-  path.join(`/${cwd}/${a}/${b}/${c}.md`),
+  path.join(`/${cwd}/${a}/${b}/${c}/index.md`),
   textCotent,
   "utf8",
   (err) => {
