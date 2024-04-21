@@ -100,6 +100,10 @@ export const sidebar = {
           text: "总览",
           link: "/blog/js-ts/index.md",
         },
+        {
+          text: "如何编写高质量的函数-命名|注释|鲁棒篇",
+          link: "/blog/js-ts/如何编写高质量的函数-命名|注释|鲁棒篇/index.md",
+        },
       ],
     },
     {
@@ -141,6 +145,14 @@ export const sidebar = {
         {
           text: "函数式编程[1]",
           link: "/blog/基础/函数式编程[1]/index.md",
+        },
+        {
+          text: "函数式编程[2]",
+          link: "/blog/基础/函数式编程[2]/index.md",
+        },
+        {
+          text: "函数式编程[3]",
+          link: "/blog/基础/函数式编程[3]/index.md",
         },
       ],
     },
