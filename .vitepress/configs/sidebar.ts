@@ -143,16 +143,16 @@ export const sidebar = {
           link: "/blog/基础/前端网络知识/index.md",
         },
         {
-          text: "函数式编程[1]",
-          link: "/blog/基础/函数式编程[1]/index.md",
+          text: "函数式编程-1",
+          link: "/blog/基础/函数式编程-1/index.md",
         },
         {
-          text: "函数式编程[2]",
-          link: "/blog/基础/函数式编程[2]/index.md",
+          text: "函数式编程-2",
+          link: "/blog/基础/函数式编程-2/index.md",
         },
         {
-          text: "函数式编程[3]",
-          link: "/blog/基础/函数式编程[3]/index.md",
+          text: "函数式编程-3",
+          link: "/blog/基础/函数式编程-3/index.md",
         },
       ],
     },
