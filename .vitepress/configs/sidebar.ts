@@ -268,6 +268,18 @@ export const sidebar = {
           text: "2024-4-19",
           link: "/think/day/2024-4-19.md",
         },
+        {
+          text: "2024-4-22",
+          link: "/think/day/2024-4-22/index.md",
+        },
+        {
+          text: "2024-4-23",
+          link: "/think/day/2024-4-23/index.md",
+        },
+        {
+          text: "2024-4-24",
+          link: "/think/day/2024-4-24/index.md",
+        },
       ],
     },
     {
