@@ -5,6 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  viewerjs:
+    specifier: ^1.11.6
+    version: 1.11.6
+  vitepress-plugin-image-viewer:
+    specifier: ^1.1.4
+    version: 1.1.4
   vue3-video-play:
     specifier: ^1.3.2
     version: 1.3.2
@@ -1794,6 +1800,10 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
+  /viewerjs@1.11.6:
+    resolution: {integrity: sha512-TlhdSp2oEOLFXvEp4psKaeTjR5zBjTRcM/sHUN8PkV1UWuY8HKC8n7GaVdW5Xqnwdr/F1OmzLik1QwDjI4w/nw==}
+    dev: false
+
   /vite@5.1.1(@types/node@20.12.5)(sass@1.70.0):
     resolution: {integrity: sha512-wclpAgY3F1tR7t9LL5CcHC41YPkQIpKUGeIuT8MdNwNZr6OqOTLs7JX5vIHAtzqLWXts0T+GDrh9pN2arneKqg==}
     engines: {node: ^18.0.0 || >=20.0.0}
@@ -1830,6 +1840,12 @@ packages:
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
+
+  /vitepress-plugin-image-viewer@1.1.4:
+    resolution: {integrity: sha512-loV/g/Kgz+O3DNebtSg0UPTt+2IhSIzNtcVGz1kB+A3nuVygMoaLdhrrZFuF3+obIkYINe+HVX0BAacWtFMBkA==}
+    dependencies:
+      viewerjs: 1.11.6
+    dev: false
 
   /vitepress@1.0.0-rc.42(@algolia/client-search@4.22.1)(@types/node@20.12.5)(sass@1.70.0)(search-insights@2.13.0):
     resolution: {integrity: sha512-VeiVVXFblt/sjruFSJBNChMWwlztMrRMe8UXdNpf4e05mKtTYEY38MF5qoP90KxPTCfMQiKqwEGwXAGuOTK8HQ==}

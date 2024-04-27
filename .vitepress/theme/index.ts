@@ -1,11 +1,14 @@
 // https://vitepress.dev/blog/custom-theme
-import { h, watch } from 'vue'
+import { h, watch, onMounted, nextTick } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './styles/index.scss'
 import { useData } from 'vitepress'
 import MNavLinks from './components/MNavLinks.vue'
-import HeroVideo from './components/HeroVideo.vue'
+import 'viewerjs/dist/viewer.min.css';
+import imageViewer from 'vitepress-plugin-image-viewer';
+import vImageViewer from 'vitepress-plugin-image-viewer/lib/vImageViewer.vue';
+import { useRoute } from 'vitepress';
 
 let homePageStyle: HTMLStyleElement | undefined
 
@@ -44,7 +47,7 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     app.component('MNavLinks', MNavLinks)
-
+    app.component('vImageViewer', vImageViewer);
     if (typeof window !== 'undefined') {
       watch(
         () => router.route.data.relativePath,
@@ -52,5 +55,12 @@ export default {
         { immediate: true }
       )
     }
+  },
+  setup() {
+    // Get route
+    const route = useRoute();
+    // Using
+    imageViewer(route);
   }
+
 } satisfies Theme

@@ -343,7 +343,12 @@ export const sidebar = {
     {
       text: "美股",
       collapsed: false,
-      items: [],
+      items: [
+        {
+          text: "特斯拉2024年5月趋势分析",
+          link: "/jy/am/特斯拉2024年5月趋势分析/index.md",
+        },
+      ],
     },
   ],
 };
