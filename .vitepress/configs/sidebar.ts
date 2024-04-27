@@ -343,8 +343,7 @@ export const sidebar = {
     {
       text: "美股",
       collapsed: false,
-      items: [
-      ],
-    }
+      items: [],
+    },
   ],
 };
