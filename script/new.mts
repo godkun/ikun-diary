@@ -13,7 +13,7 @@ const { a } = await inquirer.prompt([
     type: "list",
     name: "a",
     message: "选择写作主题 (播客/不卡科技/思考):",
-    choices: ["blog", "buka", "think"],
+    choices: ["blog", "buka", "think", "jy"],
   },
 ]);
 

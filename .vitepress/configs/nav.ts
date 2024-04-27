@@ -16,5 +16,10 @@ export const nav: DefaultTheme.Config['nav'] = [
     activeMatch: '/think/',
     link: '/think/'
   },
+  {
+    text: '投资和交易',
+    activeMatch: '/jy/',
+    link: '/jy/'
+  },
   { text: '工具导航', link: '/nav', activeMatch: '^/nav' },
 ]
