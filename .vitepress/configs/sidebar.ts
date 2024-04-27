@@ -8,6 +8,14 @@ export const sidebar = {
           text: "总览",
           link: "/blog/ai/index.md",
         },
+        {
+          text: "ollama|tabby+llamacpp+llms的架构",
+          link: "/blog/ai/ollama|tabby+llamacpp+llms的架构/index.md",
+        },
+        {
+          text: "本地启动ollama+llamas",
+          link: "/blog/ai/本地启动ollama+llamas/index.md",
+        },
       ],
     },
     {

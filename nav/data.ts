@@ -102,7 +102,7 @@ export const NAV_DATA: NavData[] = [
       },
       {
         title: "sourcegraph",
-        link: "https://sourcegraph.com/",
+        link: "https://sourcegraph.com/search",
       },
       {
         title: "艺术字体特效生成器",
