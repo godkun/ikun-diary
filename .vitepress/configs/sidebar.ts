@@ -344,10 +344,6 @@ export const sidebar = {
       text: "美股",
       collapsed: false,
       items: [
-        {
-          text: "阿里巴巴2024年5月趋势判断",
-          link: "/jy/ag/阿里巴巴2024年5月趋势判断/index.md",
-        },
       ],
     }
   ],
