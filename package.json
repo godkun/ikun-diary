@@ -8,13 +8,18 @@
   },
   "devDependencies": {
     "@mdit-vue/shared": "^0.12.0",
+    "@nolebase/vitepress-plugin-enhanced-mark": "2.0.0-rc10",
+    "@nolebase/vitepress-plugin-enhanced-readabilities": "2.0.0-rc10",
+    "@nolebase/vitepress-plugin-inline-link-preview": "2.0.0-rc10",
+    "@nolebase/vitepress-plugin-page-properties": "2.0.0-rc10",
     "@types/node": "^20.12.5",
     "fs-extra": "^11.2.0",
     "inquirer": "^9.2.17",
     "prettier": "^3.2.5",
     "sass": "^1.58.3",
     "tsx": "^4.7.2",
-    "vitepress": "1.0.0-rc.42",
+    "vite": "^5.2.10",
+    "vitepress": "1.0.2",
     "vue": "^3.2.47"
   },
   "dependencies": {

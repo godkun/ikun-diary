@@ -1,5 +1,8 @@
 import { defineConfig } from "vitepress";
 import { nav, sidebar } from "./configs";
+import { 
+  InlineLinkPreviewElementTransform 
+} from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
 
 export default defineConfig({
   title: "ikun日记",
@@ -32,4 +35,13 @@ export default defineConfig({
       text: "Edit this page on GitHub",
     },
   },
+  markdown: { 
+    config(md) { 
+      // 其他 markdown-it 配置...
+      md.use(InlineLinkPreviewElementTransform) 
+    } 
+  },
+  vite: { 
+    plugins: [],
+  }, 
 });
