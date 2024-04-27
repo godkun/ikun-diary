@@ -132,6 +132,10 @@ export const sidebar = {
           text: "node应用故障定位顶级技巧—动态追踪技术[Dynamic Trace]",
           link: "/blog/node-deno-bun/node应用故障定位顶级技巧—动态追踪技术[Dynamic Trace]/index.md",
         },
+        {
+          text: "deno+jupyter",
+          link: "/blog/node-deno-bun/deno+jupyter/index.md",
+        },
       ],
     },
     {
@@ -279,6 +283,10 @@ export const sidebar = {
         {
           text: "2024-4-24",
           link: "/think/day/2024-4-24/index.md",
+        },
+        {
+          text: "2024-4-25",
+          link: "/think/day/2024-4-25/index.md",
         },
       ],
     },

@@ -142,6 +142,11 @@ export const NAV_DATA: NavData[] = [
     title: "我正在用",
     items: [
       {
+        title: "excalidraw",
+        desc: "非常好用的画图工具",
+        link: "https://excalidraw.com/",
+      },
+      {
         title: "wakatime",
         desc: "统计、分析可视化展示每天每周每月的coding情况",
         link: "https://wakatime.com",
