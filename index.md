@@ -4,7 +4,8 @@ layout: home
 
 hero:
   name: ikun日记
-  tagline: 斯是陋室，惟吾德馨
+  tagline: 人生的每一个新阶段都是一种重生
+  # tagline: 斯是陋室，惟吾德馨
   actions:
     - theme: brand
       text: 博客
@@ -29,6 +30,4 @@ features:
     title: 作者微信
     details: 和作者一对一交流
 ---
-
-
 

@@ -173,6 +173,10 @@ export const sidebar = {
       collapsed: false,
       items: [
         {
+          text: "代码大全",
+          link: "/blog/读书笔记/代码大全/index.md",
+        },
+        {
           text: "代码的艺术",
           link: "/blog/读书笔记/代码的艺术/index.md",
         },
@@ -203,7 +207,7 @@ export const sidebar = {
         {
           text: "小程序巧应用——微信小程序开发实战",
           link: "/blog/读书笔记/小程序巧应用——微信小程序开发实战/index.md",
-        }
+        },
       ],
     },
     {
