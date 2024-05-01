@@ -257,13 +257,17 @@ export const sidebar = {
       ],
     },
     {
-      text: "启动",
+      text: "start",
       collapsed: false,
       items: [
         {
           text: "总览",
           link: "/blog/start/index.md",
         },
+        {
+          text: "我当面试官的经历总结",
+          link: "/blog/start/我当面试官的经历总结/index.md",
+        }
       ],
     },
   ],
