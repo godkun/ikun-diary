@@ -5,6 +5,10 @@ export const sidebar = {
       collapsed: false,
       items: [
         {
+          text: "一些软件",
+          link: "/blog/ai/一些软件/index.md",
+        },
+        {
           text: "总览",
           link: "/blog/ai/index.md",
         },
@@ -23,6 +27,14 @@ export const sidebar = {
       collapsed: false,
       items: [
         {
+          text: "一些库",
+          link: "/blog/go/一些库/index.md",
+        },
+        {
+          text: "一些文章",
+          link: "/blog/go/一些文章/index.md",
+        },
+        {
           text: "总览",
           link: "/blog/go/index.md",
         },
@@ -32,6 +44,10 @@ export const sidebar = {
       text: "rust",
       collapsed: false,
       items: [
+        {
+          text: "一些好的库或软件",
+          link: "/blog/rust/一些好的库或软件/index.md",
+        },
         {
           text: "总览",
           link: "/blog/rust/index.md",
@@ -83,6 +99,10 @@ export const sidebar = {
       collapsed: false,
       items: [
         {
+          text: "一些工具使用文章",
+          link: "/blog/tools/一些工具使用文章/index.md",
+        },
+        {
           text: "[闪念] 快来试试这两款完美的编程字体吧",
           link: "/blog/tools/[闪念] 快来试试这两款完美的编程字体吧/index.md",
         },
@@ -115,9 +135,31 @@ export const sidebar = {
       ],
     },
     {
+      text: "其他",
+      collapsed: false,
+      items: [
+        {
+          text: "git 相关命令",
+          link: "/blog/其他/git 相关命令/index.md",
+        },
+        {
+          text: "centos相关命令",
+          link: "/blog/其他/centos相关命令/index.md",
+        },
+      ],
+    },
+    {
       text: "vue-react",
       collapsed: false,
       items: [
+        {
+          text: "vue-还不错的一些文章",
+          link: "/blog/vue-react/vue-还不错的一些文章/index.md",
+        },
+        {
+          text: "收藏过的一些解决方案",
+          link: "/blog/vue-react/收藏过的一些解决方案/index.md",
+        },
         {
           text: "总览",
           link: "/blog/vue-react/index.md",
@@ -128,6 +170,10 @@ export const sidebar = {
       text: "node-deno-bun",
       collapsed: false,
       items: [
+        {
+          text: "好用的库",
+          link: "/blog/node-deno-bun/好用的库/index.md",
+        },
         {
           text: "总览",
           link: "/blog/node-deno-bun/index.md",
