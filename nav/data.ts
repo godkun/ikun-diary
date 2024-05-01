@@ -142,19 +142,28 @@ export const NAV_DATA: NavData[] = [
     title: "我正在用",
     items: [
       {
+        title: "snipaste",
+        desc: "截图工具",
+        icon: "https://www.snipaste.com/img/logo.svg",
+        link: "https://www.snipaste.com/",
+      },
+      {
         title: "excalidraw",
         desc: "非常好用的画图工具",
         link: "https://excalidraw.com/",
+        icon: "https://excalidraw.com/favicon.ico",
       },
       {
         title: "wakatime",
         desc: "统计、分析可视化展示每天每周每月的coding情况",
         link: "https://wakatime.com",
+        icon: "https://wakatime.com/favicon.ico",
       },
       {
         title: "kap",
         desc: "开源好用的mac录屏工具",
         link: "https://getkap.co/",
+        icon: "https://getkap.co/favicon.ico",
       },
     ],
   },
