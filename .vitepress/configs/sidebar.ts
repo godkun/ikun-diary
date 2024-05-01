@@ -173,8 +173,8 @@ export const sidebar = {
       collapsed: false,
       items: [
         {
-          text: "读完《代码大全》后的二三总结",
-          link: "/blog/读书笔记/读完《代码大全》后的二三总结/index.md",
+          text: "代码的艺术",
+          link: "/blog/读书笔记/代码的艺术/index.md",
         },
         {
           text: "推荐书籍",
@@ -203,7 +203,7 @@ export const sidebar = {
         {
           text: "小程序巧应用——微信小程序开发实战",
           link: "/blog/读书笔记/小程序巧应用——微信小程序开发实战/index.md",
-        },
+        }
       ],
     },
     {

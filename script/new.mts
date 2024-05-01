@@ -60,7 +60,7 @@ const filePath = path.join(`${cwd}/.vitepress/configs/sidebar.ts`);
 sidebarObject[`/${a}/`].forEach((item) => {
   if (item.text === map[b] || item.text === b) {
     const index = item.items.findIndex((item) => item.text === c);
-    if (index < 0) item.items.push({ text: c, link: `/${a}/${b}/${c}/index.md` });
+    if (index < 0) item.items.unshift({ text: c, link: `/${a}/${b}/${c}/index.md` });
     else {
       console.log("存在相同名称文章，自动退出");
       process.exit(1);
