@@ -261,13 +261,17 @@ export const sidebar = {
       collapsed: false,
       items: [
         {
+          text: "写md格式文章到发布微信公众号的流程",
+          link: "/blog/start/写md格式文章到发布微信公众号的流程/index.md",
+        },
+        {
           text: "总览",
           link: "/blog/start/index.md",
         },
         {
           text: "我当面试官的经历总结",
           link: "/blog/start/我当面试官的经历总结/index.md",
-        }
+        },
       ],
     },
   ],
