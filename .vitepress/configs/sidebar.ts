@@ -219,6 +219,10 @@ export const sidebar = {
       collapsed: false,
       items: [
         {
+          text: "图解http",
+          link: "/blog/读书笔记/图解http/index.md",
+        },
+        {
           text: "大话代码架构",
           link: "/blog/读书笔记/大话代码架构/index.md",
         },
