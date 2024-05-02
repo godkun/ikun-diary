@@ -219,6 +219,10 @@ export const sidebar = {
       collapsed: false,
       items: [
         {
+          text: "大话代码架构",
+          link: "/blog/读书笔记/大话代码架构/index.md",
+        },
+        {
           text: "从零开始学架构",
           link: "/blog/读书笔记/从零开始学架构/index.md",
         },
