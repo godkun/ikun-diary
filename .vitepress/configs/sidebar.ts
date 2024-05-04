@@ -323,65 +323,24 @@ export const sidebar = {
       collapsed: false,
       items: [
         {
-          text: "2024-4-11",
-          link: "/think/day/2024-4-11.md",
+          text: "2024五一假",
+          link: "/think/day/2024五一假/index.md",
         },
-        {
-          text: "2024-4-12",
-          link: "/think/day/2024-4-12.md",
-        },
-        {
-          text: "2024-4-15",
-          link: "/think/day/2024-4-15.md",
-        },
-        {
-          text: "2024-4-16",
-          link: "/think/day/2024-4-16.md",
-        },
-        {
-          text: "2024-4-17",
-          link: "/think/day/2024-4-17.md",
-        },
-        {
-          text: "2024-4-18",
-          link: "/think/day/2024-4-18.md",
-        },
-        {
-          text: "2024-4-19",
-          link: "/think/day/2024-4-19.md",
-        },
-        {
-          text: "2024-4-22",
-          link: "/think/day/2024-4-22/index.md",
-        },
-        {
-          text: "2024-4-23",
-          link: "/think/day/2024-4-23/index.md",
-        },
-        {
-          text: "2024-4-24",
-          link: "/think/day/2024-4-24/index.md",
-        },
-        {
-          text: "2024-4-25",
-          link: "/think/day/2024-4-25/index.md",
-        },
-        {
-          text: "2024-4-26",
-          link: "/think/day/2024-4-26/index.md",
-        },
-        {
-          text: "2024-4-28",
-          link: "/think/day/2024-4-28/index.md",
-        },
-        {
-          text: "2024-4-29",
-          link: "/think/day/2024-4-29/index.md",
-        },
-        {
-          text: "2024-4-30",
-          link: "/think/day/2024-4-30/index.md",
-        },
+        { text: "2024-4-30", link: "/think/day/2024-4-30/index.md" },
+        { text: "2024-4-29", link: "/think/day/2024-4-29/index.md" },
+        { text: "2024-4-28", link: "/think/day/2024-4-28/index.md" },
+        { text: "2024-4-26", link: "/think/day/2024-4-26/index.md" },
+        { text: "2024-4-25", link: "/think/day/2024-4-25/index.md" },
+        { text: "2024-4-24", link: "/think/day/2024-4-24/index.md" },
+        { text: "2024-4-23", link: "/think/day/2024-4-23/index.md" },
+        { text: "2024-4-22", link: "/think/day/2024-4-22/index.md" },
+        { text: "2024-4-19", link: "/think/day/2024-4-19.md" },
+        { text: "2024-4-18", link: "/think/day/2024-4-18.md" },
+        { text: "2024-4-17", link: "/think/day/2024-4-17.md" },
+        { text: "2024-4-16", link: "/think/day/2024-4-16.md" },
+        { text: "2024-4-15", link: "/think/day/2024-4-15.md" },
+        { text: "2024-4-12", link: "/think/day/2024-4-12.md" },
+        { text: "2024-4-11", link: "/think/day/2024-4-11.md" },
       ],
     },
     {
