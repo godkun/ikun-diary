@@ -59,6 +59,10 @@ export const sidebar = {
       collapsed: false,
       items: [
         {
+          text: "发布订阅模式",
+          link: "/blog/architecture/发布订阅模式/index.md",
+        },
+        {
           text: "掌握设计原则",
           link: "/blog/architecture/掌握设计原则/index.md",
         },
@@ -219,6 +223,10 @@ export const sidebar = {
       collapsed: false,
       items: [
         {
+          text: "Metor实战",
+          link: "/blog/读书笔记/Metor实战/index.md",
+        },
+        {
           text: "图解http",
           link: "/blog/读书笔记/图解http/index.md",
         },
@@ -323,24 +331,93 @@ export const sidebar = {
       collapsed: false,
       items: [
         {
+          text: "2024-5-11",
+          link: "/think/day/2024-5-11/index.md",
+        },
+        {
+          text: "2024-5-10",
+          link: "/think/day/2024-5-10/index.md",
+        },
+        {
+          text: "2024-5-9",
+          link: "/think/day/2024-5-9/index.md",
+        },
+        {
+          text: "2024-5-8",
+          link: "/think/day/2024-5-8/index.md",
+        },
+        {
+          text: "2024-5-7",
+          link: "/think/day/2024-5-7/index.md",
+        },
+        {
+          text: "2024-5-6",
+          link: "/think/day/2024-5-6/index.md",
+        },
+        {
           text: "2024五一假",
           link: "/think/day/2024五一假/index.md",
         },
-        { text: "2024-4-30", link: "/think/day/2024-4-30/index.md" },
-        { text: "2024-4-29", link: "/think/day/2024-4-29/index.md" },
-        { text: "2024-4-28", link: "/think/day/2024-4-28/index.md" },
-        { text: "2024-4-26", link: "/think/day/2024-4-26/index.md" },
-        { text: "2024-4-25", link: "/think/day/2024-4-25/index.md" },
-        { text: "2024-4-24", link: "/think/day/2024-4-24/index.md" },
-        { text: "2024-4-23", link: "/think/day/2024-4-23/index.md" },
-        { text: "2024-4-22", link: "/think/day/2024-4-22/index.md" },
-        { text: "2024-4-19", link: "/think/day/2024-4-19.md" },
-        { text: "2024-4-18", link: "/think/day/2024-4-18.md" },
-        { text: "2024-4-17", link: "/think/day/2024-4-17.md" },
-        { text: "2024-4-16", link: "/think/day/2024-4-16.md" },
-        { text: "2024-4-15", link: "/think/day/2024-4-15.md" },
-        { text: "2024-4-12", link: "/think/day/2024-4-12.md" },
-        { text: "2024-4-11", link: "/think/day/2024-4-11.md" },
+        {
+          text: "2024-4-30",
+          link: "/think/day/2024-4-30/index.md",
+        },
+        {
+          text: "2024-4-29",
+          link: "/think/day/2024-4-29/index.md",
+        },
+        {
+          text: "2024-4-28",
+          link: "/think/day/2024-4-28/index.md",
+        },
+        {
+          text: "2024-4-26",
+          link: "/think/day/2024-4-26/index.md",
+        },
+        {
+          text: "2024-4-25",
+          link: "/think/day/2024-4-25/index.md",
+        },
+        {
+          text: "2024-4-24",
+          link: "/think/day/2024-4-24/index.md",
+        },
+        {
+          text: "2024-4-23",
+          link: "/think/day/2024-4-23/index.md",
+        },
+        {
+          text: "2024-4-22",
+          link: "/think/day/2024-4-22/index.md",
+        },
+        {
+          text: "2024-4-19",
+          link: "/think/day/2024-4-19.md",
+        },
+        {
+          text: "2024-4-18",
+          link: "/think/day/2024-4-18.md",
+        },
+        {
+          text: "2024-4-17",
+          link: "/think/day/2024-4-17.md",
+        },
+        {
+          text: "2024-4-16",
+          link: "/think/day/2024-4-16.md",
+        },
+        {
+          text: "2024-4-15",
+          link: "/think/day/2024-4-15.md",
+        },
+        {
+          text: "2024-4-12",
+          link: "/think/day/2024-4-12.md",
+        },
+        {
+          text: "2024-4-11",
+          link: "/think/day/2024-4-11.md",
+        },
       ],
     },
     {
