@@ -4,13 +4,13 @@
 
 工作和学习过程中，时常用 `jupyter` 写 `python` 代码，突然想到， `py` 和 `js` 都是脚本语言，用 `jupyter` 写 `js` 是不是也可以实现？
 
-遂简单调研了下，经过尝试，最终确定通过 `deno` 可以方便的在 `jupypter` 中写 `js` 和 `ts` 代码
+遂简单调研了下，经过尝试，最终确定通过 `deno` 可以方便的在 `jupypter` 中写 `js` 和 `ts` 代码。
 
 ## 目的
 
-`jupyter` 最大的好处是可以以文本的形式保存运行的结果，还可以很方便的分步骤运行
+`jupyter` 最大的好处是可以以文本的形式保存运行的结果，还可以很方便的分步骤运行。
 
-## 1.安装deno
+## 安装deno
 
 ```sh
 // mac/linux
@@ -20,7 +20,7 @@ curl -fsSL https://deno.land/install.sh | sh
 irm https://deno.land/install.ps1 | iex
 ```
 
-## 2.安装 python3 和 jupyter
+## 安装 python3 和 jupyter
 
 有两种方式：
 
@@ -37,7 +37,7 @@ pip install jupyterlab notebook
 
 电脑性能好的，推荐第二种
 
-## 4.在 jupyer 中使用 deno
+## 在 jupyer 中使用 deno
 
 在终端执行
 
@@ -45,7 +45,7 @@ pip install jupyterlab notebook
 deno jupyter --unstable --install
 ```
 
-## 5.在vscode中使用
+## 在 vscode 中使用
 
 - 安装 `jupyter` 扩展
 
@@ -57,7 +57,7 @@ deno jupyter --unstable --install
 
 至此就可以愉快编写 `jupyter` 文档啦
 
-## 6.例子演示
+## 例子演示
 
 下面是几个简单的 `demo` ，分别演示了：
 
