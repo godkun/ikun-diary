@@ -1,4 +1,4 @@
-# 确认了！可以 jupyter 写 ts 和 js 代码
+# 偷偷告诉你，可以用 jupyter 写 ts 和 js 代码
 
 ## 背景
 
@@ -37,7 +37,7 @@ pip install jupyterlab notebook
 
 电脑性能好的，推荐第二种
 
-## 在 jupyer 中使用 deno
+## 安装 jupyer 的 deno 内核
 
 在终端执行
 
