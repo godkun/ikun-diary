@@ -5,8 +5,8 @@ export const sidebar = {
       collapsed: false,
       items: [
         {
-          text: "实际过ai搜索的我说两句",
-          link: "/blog/ai/实际过ai搜索的我说两句/index.md",
+          text: "AI搜索如何落地价值",
+          link: "/blog/ai/AI搜索如何落地价值/index.md",
         },
         {
           text: "一些软件",

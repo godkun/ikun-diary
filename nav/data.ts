@@ -160,11 +160,6 @@ export const NAV_DATA: NavData[] = [
         icon: "https://www.processon.com/favicon.ico",
       },
       {
-        title: "markdown",
-        desc: "markdown编辑器 md转pdf",
-        link: "https://tool.lu/markdown/"
-      },
-      {
         title: "wakatime",
         desc: "统计、分析可视化展示每天每周每月的coding情况",
         link: "https://wakatime.com",

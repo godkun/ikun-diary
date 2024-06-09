@@ -11,11 +11,11 @@ export const nav: DefaultTheme.Config['nav'] = [
     activeMatch: '/buka/',
     link: '/buka/'
   },
-  {
-    text: '思考',
-    activeMatch: '/think/',
-    link: '/think/'
-  },
+  // {
+  //   text: '思考',
+  //   activeMatch: '/think/',
+  //   link: '/think/'
+  // },
   {
     text: '投资和交易',
     activeMatch: '/jy/',
