@@ -31,6 +31,12 @@ export const sidebar = {
       ],
     },
     {
+      text: "慕课和极客时间课程学习",
+      collapsed: false,
+      items: [
+      ],
+    },
+    {
       text: "ai",
       collapsed: false,
       items: [
