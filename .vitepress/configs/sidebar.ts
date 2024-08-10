@@ -257,6 +257,10 @@ export const sidebar = {
       collapsed: false,
       items: [
         {
+          text: "管道的故事",
+          link: "/blog/读书笔记/管道的故事/index.md",
+        },
+        {
           text: "Metor实战",
           link: "/blog/读书笔记/Metor实战/index.md",
         },
