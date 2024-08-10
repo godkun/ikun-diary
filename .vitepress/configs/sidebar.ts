@@ -1,6 +1,36 @@
 export const sidebar = {
   "/blog/": [
     {
+      text: "性能优化",
+      collapsed: false,
+      items: [
+        {
+          text: "如何做",
+          link: "/blog/性能优化/如何做/index.md",
+        },
+      ],
+    },
+    {
+      text: "救火队长",
+      collapsed: false,
+      items: [
+        {
+          text: "如何做",
+          link: "/blog/救火队长/如何做/index.md",
+        },
+      ],
+    },
+    {
+      text: "参会",
+      collapsed: false,
+      items: [
+        {
+          text: "全球软件大会",
+          link: "/blog/参会/全球软件大会/index.md",
+        },
+      ],
+    },
+    {
       text: "ai",
       collapsed: false,
       items: [
@@ -438,6 +468,10 @@ export const sidebar = {
       text: "月回顾",
       collapsed: false,
       items: [
+        {
+          text: "5月总结",
+          link: "/think/month/5月总结/index.md",
+        },
         {
           text: "月回顾",
           link: "/think/month/index.md",
