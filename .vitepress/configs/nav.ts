@@ -17,9 +17,9 @@ export const nav: DefaultTheme.Config['nav'] = [
   //   link: '/jy/'
   // },
   { text: '工具导航', link: '/nav', activeMatch: '^/nav' },
-  // {
-  //   text: '不卡科技',
-  //   activeMatch: '/buka/',
-  //   link: '/buka/'
-  // }
+  {
+    text: '不卡科技',
+    activeMatch: '/buka/',
+    link: '/buka/'
+  }
 ]
